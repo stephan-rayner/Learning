@@ -1,0 +1,15 @@
+#!/bin/bash
+
+clear
+
+echo "Building a static binary"
+CGO_ENABLED=0 GOOS=linux go build -a -ldflags '-extldflags "-static"' .
+
+echo "Building ./Dockerfile:"
+cat Dockerfile
+echo
+docker build -t static-go-docker-test .
+echo
+
+echo Running:
+docker run --rm static-go-docker-test
