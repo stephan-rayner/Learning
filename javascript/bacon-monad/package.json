@@ -1,0 +1,24 @@
+{
+  "name": "bacon-monad",
+  "version": "1.0.0",
+  "description": "Screwing around with bacon js to learn Monads",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "clear; node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephan-rayner/bacon-monad.git"
+  },
+  "author": "Stephan Rayner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephan-rayner/bacon-monad/issues"
+  },
+  "homepage": "https://github.com/stephan-rayner/bacon-monad#readme",
+  "dependencies": {
+    "baconjs": "^0.7.93",
+    "node-fetch": "^1.6.3"
+  }
+}
