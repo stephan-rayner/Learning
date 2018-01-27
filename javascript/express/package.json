@@ -1,0 +1,23 @@
+{
+  "name": "artichoke",
+  "version": "1.0.0",
+  "description": "Fun times with Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephan-rayner/artichoke.git"
+  },
+  "author": "Stephan Rayner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephan-rayner/artichoke/issues"
+  },
+  "homepage": "https://github.com/stephan-rayner/artichoke#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}
