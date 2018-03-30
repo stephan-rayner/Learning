@@ -2,10 +2,10 @@
 
 main: build run
 build:
-	g++ -v -g -Wall -std=c++11 ./src/main.cpp ./src/libs/*.cpp -o app
+	g++ -v -g -Wall -std=c++11 ./src/main.cpp ./src/libs/*.cpp -o ./bin/app
 run:
 	clear
-	./app
+	time ./bin/app
 clean:
-	rm ./app | true
-	rm -r app.dSYM | true
+	rm ./bin/app | true
+	rm -r ./bin/app.dSYM | true
