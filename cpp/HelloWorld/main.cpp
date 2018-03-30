@@ -6,7 +6,7 @@ int main() {
     const double PI = 3.14159;
 
     std::cout << "PI is: " << PI << "..." << std::endl;
-    std::cout << "Size of int " << sizeof(PI) << std::endl;
+    std::cout << "Size of PI " << sizeof(PI) << std::endl;
 
     return 0;
 }
